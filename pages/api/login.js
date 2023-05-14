@@ -14,7 +14,6 @@ export default (req, res) => {
       null,
       4
     );
-
     res.status(200).send(`
     <html>
     <head> <title>LOGIN2 SUCCESS</title> </head>
