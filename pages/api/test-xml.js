@@ -2,6 +2,13 @@ var builder = require('xmlbuilder');
 
 export default (req, res) => {
 
+    if(req.method !== 'GET') {
+        return res.status(400).send(`
+        <html> <body> POGRESIO SI DECKO, MOZE SAMO GET </body> </html>
+        `)
+
+        }
+
     
     const odgovor = {
         root: {
