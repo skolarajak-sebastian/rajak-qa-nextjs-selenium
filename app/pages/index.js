@@ -10,6 +10,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Рајак QA курс тест NextJS</h1>
+        <h2 className={styles.title}>Ово је неки нови наслов</h2>
         <form method="POST" action="/api/login">
           <div>
             <label htmlFor="username"> Корисничко име: </label>
