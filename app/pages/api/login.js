@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default (req, res) => {
-  if (req.body.username === 'admin' && req.body.password === 'admin') {
+  if (req.body.username === 'admin' && req.body.password === 'admin$2023KAKOE.abcrajak') {
     const json = JSON.stringify(
       {
         info: 'LOGIN PROSAO',
