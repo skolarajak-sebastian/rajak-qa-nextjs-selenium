@@ -1,7 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default (req, res) => {
-  if (req.body.username === 'admin' && req.body.password === 'admin$2023KAKOE.abcrajak') {
+
+  const dobriKredencijali = (req.body.username === 'admin' && req.body.password === 'admin$2023KAKOE.abcrajak')
+
+  // MORAMO DA OMOGUCIMO DJACIMA KOJI PRATE RANIJA PREDAVANJA DA MOGU I DALJE DA SE ULOGUJU!!!
+  // TAKO da cemo dozvoliti i login sa admin/admin
+  || (req.body.username === 'admin' && req.body.password === 'admin');
+  if (dobriKredencijali) {
     const json = JSON.stringify(
       {
         info: 'LOGIN PROSAO',
