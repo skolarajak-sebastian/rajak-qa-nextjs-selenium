@@ -2,6 +2,7 @@
 
 App nam u je 'app'
 
-Vercel build main:
+Vercel build:
 https://rajak-qa-nextjs-selenium.vercel.app/
 
+Sebastian izmena
