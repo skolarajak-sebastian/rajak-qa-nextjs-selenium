@@ -3,7 +3,8 @@
 export default (req, res) => {
 
   const dobriKredencijali = (req.body.username === 'admin' && req.body.password === 'admin$2023KAKOE.abcrajak')
-
+   // VLADIMIR LOGIN 
+  || (req.body.username === 'admin' && req.body.password === 'admin-2023dobroenielose-vladimir')
   // MORAMO DA OMOGUCIMO DJACIMA KOJI PRATE RANIJA PREDAVANJA DA MOGU I DALJE DA SE ULOGUJU!!!
   // TAKO da cemo dozvoliti i login sa admin/admin
   || (req.body.username === 'admin' && req.body.password === 'admin');
