@@ -10,3 +10,4 @@ Sebastian izmena
 Vladimir izmena
 
 Ivan S izmena - testiranje podgrane
+Ivan S dodato sa pregledaca
